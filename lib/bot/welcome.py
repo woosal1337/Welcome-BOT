@@ -26,7 +26,7 @@ def welcomeXD(nickname="WOOSAL"):
 
     cv2_im_processed = cv2.cvtColor(np.array(pil_im), cv2.COLOR_RGB2BGR)
     cv2.imwrite(f"Output/{nickname}.png", cv2_im_processed)
-    cv2.imshow('Fonts', cv2_im_processed)
+    #cv2.imshow('Fonts', cv2_im_processed)
     #cv2.waitKey(0)
 
     cv2.destroyAllWindows()

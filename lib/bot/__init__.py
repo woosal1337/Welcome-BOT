@@ -3,17 +3,6 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from discord import Embed, File
 from datetime import datetime
 from discord.ext.commands import CommandNotFound
-from os import listdir
-from os.path import isfile, join
-import time
-from selenium import webdriver
-import bs4 as bs
-from selenium import webdriver  # for webdriver
-from selenium.webdriver.support.ui import WebDriverWait  # for implicit and explict waits
-from selenium.webdriver.chrome.options import Options  # for suppressing the browser
-from PIL import ImageFont, ImageDraw, Image
-import cv2
-import numpy as np
 from lib.bot.welcome import welcomeXD
 
 PREFIX = "+"
@@ -73,7 +62,7 @@ class Bot(BotBase):
             channel = self.get_channel(757016278060761178)
 
 
-            welcomeXD("WOOSALLL")
+            welcomeXD("WOOSAL")
             #time.sleep(5)
             # await channel.send(file=File(f"./lib/bot/Output/{i}.png"))
 
